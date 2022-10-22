@@ -4,7 +4,4 @@ kind: AWX
 metadata:
   name: awx-demo
 spec:
-  service_type: nodeport
-  # default nodeport_port is 30080
-  nodeport_port: 30080
-  
+  service_type: LoadBalancer
